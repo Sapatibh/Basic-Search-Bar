@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: teal;
+    color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+.Infocon{
+    background-color: grey;
+    height: 60vh;
+    width:  75vw;
+    margin:  auto; 
+    display: flex;
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.mx-auto{
+    margin: auto;
+}
+.flex{
+    display:flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}
+.button{
+    padding: auto; 
+    margin:  auto;
+    background-color: black;
+    color: yellow;
+    border:  2px solid yellow;
+    border-radius: 9px ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    padding: auto;
+    margin: auto;
+    height: 5vh;
+    width: 50vw;
+}
+.about{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding: auto;
+   font-family: 'Dancing Script',cursive;
+}
+
